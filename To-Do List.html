@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>To-Do List</h1>
+    <input type="text" id="taskInput" placeholder="Tambah tugas..." />
+    <input type="datetime-local" id="datetimeInput" />
+    <select id="categoryInput">
+      <option value="Pekerjaan">Pekerjaan</option>
+      <option value="Sekolah">Sekolah</option>
+      <option value="Pribadi">Pribadi</option>
+      <option value="Lainnya">Lainnya</option>
+    </select>
+    <button onclick="addTask()">Tambah</button>
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
